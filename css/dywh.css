@@ -1,0 +1,143 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.header{
+    margin-top: 30px;
+    width: 1400px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin-left: 50px;
+    /* 剧中 */
+    background: white;
+}
+.header .nav1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.header img{
+    border-radius: 50%;
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.nav .frist{
+    color: blue;
+}
+.imgBox{
+    border-top: 0px solid white;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.imgBox img{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+.w{
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: skyblue;
+    margin-bottom: 60px;
+}
+.q{
+    margin: auto;
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+}
+.q1{
+    background-color: white;
+    float: left;
+    width: 800px;
+    height: 500px;
+    margin-right: 20px;
+}
+.q11{
+    color: skyblue;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+.q12{
+    opacity: 0.6;
+    text-indent: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.q13{
+    opacity: 0.6;
+    text-indent: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.q14{
+    opacity: 0.6;
+    text-indent: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.q2{
+    float: right;
+  width: 380px;
+  height: 500px;
+  background-color: white;
+}
+.q21{
+    float: left;
+    width: 380px;
+    height: 240px;
+}
+.q2 img {
+    width: 360px;
+    height: 240px;
+}
+.q22{
+    margin-top: 20px;
+    float: left;
+    width: 380px;
+    height: 240px;
+}
+.r{
+    margin: auto;
+    width: 1200px;
+    height: 20px;
+    background-color: white;
+    
+}
+.f{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

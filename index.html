@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中华传统文化与社会主义核心价值观</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="nav1">中国传统文化</div>
+            <a href="./index.html" class="frist">首页</a>
+            <a href="./zgxj.html">中国戏剧</a>
+            <a href="./hzwh.html">汉字文化</a>
+            <a href="./dywh.html">地域文化</a>
+			<a href="./gywm.html">社会主义核心价值观</a>
+        </div>
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+<script>
+  $('.nav a').hover(function(){
+    $(this).addClass('frist').siblings().removeClass('frist');
+  })
+</script>
+<div class="imgBox">
+    <img class="img-slide img1" src="./images/shouye/bar1.png" alt="1">
+</div>
+</body>
+<script type="text/javascript">
+    var index=0;
+    //改变图片
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+ 
+</script>
+<div class="w">
+    弘扬中国传统文化
+</div>
+<div class="s"> 
+    <div class="s1">
+        <img src="./images/shouye/bar3.jpg" alt="">
+    </div>
+    <div class="s2">
+        <img src="./images/shouye/1.jpg" alt="">
+    </div>
+</div>
+<div class="w">
+    中国文化孝道
+</div>
+<div class="s">
+    <div class="s1">
+        <img src="./images/shouye/3.jpg" alt="">
+    </div>
+    <div class="s2">
+        <img src="./images/shouye/6.jpg" alt="">
+    </div>
+</div>
+<div class="w">
+    中国品德文化
+</div>
+<div class="s">
+    <div class="s1">
+        <img src="./images/shouye/4.jpg" alt="">
+    </div>
+    <div class="s2">
+        <img src="./images/shouye/5.png" alt="">
+    </div>
+</div>
+</body>
+<br></br>
+<br></br>
+<br></br>
+</html>

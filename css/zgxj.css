@@ -1,0 +1,155 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.header{
+    margin-top: 30px;
+    width: 1400px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin-left: 50px;
+    /* 剧中 */
+    background: white;
+}
+.header .nav1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.nav .frist{
+    color: blue;
+}
+.imgBox{
+    border-top: 0px solid white;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.imgBox img{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+.a{
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.q{
+    margin: auto;
+    width: 1100px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.q img{
+    width: 210px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.w{
+    margin: auto;
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.w1{
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+.w1 img {
+    width: 600px;
+    height: 400px;
+}
+.w2{
+    float: right;
+    width: 500px;
+    height: 400px;
+}
+.w21{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.w2 p{
+    opacity: 0.6;
+    margin: 15px 50px;
+}
+.s{
+    margin: auto;
+    width: 1100px;
+    height: 400px;
+    background-color: white;
+}
+.f{
+    
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.s1{
+    width: 510px;
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+}
+.s1 img{
+    width: 510px;
+    height: 350px;
+}
+.s p{
+  margin: 20px 20px;
+  opacity: 0.6;
+}
+.s2{
+    width: 510px;
+    height: 400px;
+    float: right;
+}
+.s2 img{
+    width: 510px;
+    height: 350px;
+}
+.f1{
+    
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.g{
+    margin-top: 100px;
+    text-align: center;
+    opacity: 0.8;
+}
+.h{
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}

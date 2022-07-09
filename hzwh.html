@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/hzwh.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="nav1">中国汉字文化</div>
+          <a href="./index.html" class="frist">首页</a>
+          <a href="./zgxj.html">中国戏剧</a>
+            <a href="./hzwh.html">汉字文化</a>
+            <a href="./dywh.html">地域文化</a>
+			<a href="./gywm.html">社会主义核心价值观</a>
+        </div>
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+<script>
+  $('.nav a').hover(function(){
+    $(this).addClass('frist').siblings().removeClass('frist');
+  })
+</script>
+</script>
+<div class="imgBox">
+    <img class="img-slide img1" src="./images/hzwh/bar1.jpg.png" alt="1">
+    <img class="img-slide img2" src="./images/hzwh/bar2.jpeg.jpg" alt="2">
+</div>
+</body>
+<script type="text/javascript">
+    var index=0;
+    //改变图片
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,2000);
+</script>
+<div class="q">————汉字文化的演变————</div>
+<div class="s">
+    <div class="s1">
+        <div class="s11">1-甲骨文</div>
+        <div class="s12">甲骨文，是中国的一种古老文字，又称“契文”、“甲骨卜辞”、“殷墟文字”或“龟甲兽骨文”。</div>
+    </div>
+    <div class="s2">
+        <img src="./images/hzwh/11.jpg" alt="">
+    </div>
+    <div class="s3">
+        <div class="s31">2-大篆</div>
+        <div class="s32">广义的大篆指小篆之前的文字，包括金文（或称“钟鼎文”）与籀文（金文之繁化），而当代汉字学家推算秦朝应尚有甲骨文，所以现在也包括其中。大篆狭义上指籀文、遗存石刻石鼓文。</div>
+    </div>
+    <div class="s2">
+        <img src="./images/hzwh/12.jpg" alt="">
+    </div>
+</div>
+
+<div class="w">
+    <div class="w1">
+        <div class="w11">
+            <img src="./images/hzwh/21.jpg" alt="">
+        </div>  
+    </div>
+    <div class="w2">
+        <div class="s11">3-小篆</div>
+        <div class="s12">小篆，是在秦始皇统一六国后（前222年），推行“书同文，车同轨”，统一度量衡的政策，由丞相李斯负责，在秦国原来使用的大篆籀文的基础上，进行简化，创制了统一文字的汉字书写形式。</div>
+    </div>
+    <div class="w3">
+        <div class="s2">
+            <img src="./images/hzwh/22.jpg" alt="">
+        </div>
+    </div>
+    <div class="w4">
+        <div class="s31">4-隶书 </div>
+        <div class="w42">隶书，有秦隶、汉隶等，一般认为由篆书发展而来，字形多呈宽扁，横画长而竖画短，讲究“蚕头燕尾”、“一波三磔”。</div>
+    </div>
+</div>
+<div class="s">
+    <div class="s1">
+        <div class="s11">5-楷书 </div>
+        <div class="s12">楷书，字体名，也叫正楷、真书、正书、小楷。由隶书逐渐演变而来，更趋简化，横平竖直。《辞海》书中解释说它“形体方正，笔画平直，可作楷模”。这种汉字字体端正，就是现代通行的汉字手写正体字。</div>
+    </div>
+    <div class="s2">
+        <img src="./images/hzwh/31.jpg" alt="">
+    </div>
+    <div class="s3">
+        <div class="s31">6-行书 </div>
+        <div class="s32">行书，是一种书法统称，分为行楷和行草两种。它在楷书的基础上发展起源的，是介于楷书、草书之间的一种字体，是为了弥补楷书的书写速度太慢和草书的难于辨认而产生的。</div>
+    </div>
+    <div class="s2">
+        <img src="./images/hzwh/32.jpg" alt="">
+    </div>
+</div>
+<div class="w">
+    <div class="w1">
+        <div class="w11">
+            <img src="./images/hzwh/31.jpg" alt="">
+        </div>  
+    </div>
+    <div class="w2">
+        <div class="s11">7-印刷字体</div>
+        <div class="s12">指供排版印刷用的规范化文字形体。中国汉字习用宋体、仿宋体、楷体、黑体（方体）和各种美术字。字形有长、扁，粗笔、细笔之分</div>
+    </div>
+    <div class="w3">
+        <div class="s2">
+            <img src="./images/hzwh/22.jpg" alt="">
+        </div>
+    </div>
+    <div class="w4">
+        <div class="s31">8-草书 </div>
+        <div class="w42">草书，有广狭二义。广义的，不论年代，凡写的潦草的字都算作为草书。狭义的，即作为一种特定的字体， [1]  形成于汉代 [2]  ，是为了书写简便在隶书基础上演变出来的。</div>
+    </div>
+</div>
+<div class="r"> —————电脑字体——————</div>
+<div class="t">
+    <div class="t1">
+        <img src="./images/hzwh/53.jpg" alt="">
+    </div>
+    <div class="t2">
+        <img src="./images/hzwh/56.jpg" alt="">
+    </div>
+    <div class="t3">
+        <img src="./images/hzwh/57.jpg" alt="">
+    </div>
+    <div class="t4">
+        <img src="./images/hzwh/51.jpg" alt="">
+    </div>
+</div>
+<div class="y">汉字文化</div>
+</body>
+<br></br>
+<br></br>
+<br></br>
+</html>

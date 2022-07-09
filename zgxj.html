@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国戏剧</title>
+    <link rel="stylesheet" href="./css/zgxj.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="nav1">中国戏剧</div>
+            <a href="./index.html" class="frist">首页</a>
+           <a href="./zgxj.html">中国戏剧</a>
+            <a href="./hzwh.html">汉字文化</a>
+            <a href="./dywh.html">地域文化</a>
+			<a href="./gywm.html">社会主义核心价值观</a>
+        </div>
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+<script>
+  $('.nav a').hover(function(){
+    $(this).addClass('frist').siblings().removeClass('frist');
+  })
+</script>
+<div class="imgBox">
+    <img class="img-slide img1" src="./images/zgxj/xj3.jpg" alt="1">
+    <img class="img-slide img2" src="./images/zgxj/xj2.jpg" alt="2">
+</div>
+</body>
+<script type="text/javascript">
+    var index=0;
+    //改变图片
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,2000);
+</script>
+<div class="a">精彩戏剧表演</div>
+<div class="q">
+  <img src="./images/zgxj/xj9.jpg" alt="">
+  <img src="./images/zgxj/xj5.jpg" alt="">
+  <img src="./images/zgxj/xj6.jpeg" alt="">
+  <img src="./images/zgxj/xj7.jpg" alt="">
+  <img src="./images/zgxj/xj8.jpg" alt="">
+</div>
+<div class="w">
+    <div class="w1">
+        <img src="./images/zgxj/jj.jpg" alt="">
+    </div>
+    <div class="w2">
+        <div class="w21">中国京剧</div>
+        <p>京剧，bai曾称平剧，亦称乱弹、国剧。我国知名戏曲剧种，du中国五大戏曲剧种之一，场zhi景布置注dao重写意，腔调以西皮、二黄为主，被视为中国国粹，中国戏曲三鼎甲“榜首”。</p>
+        <p>徽剧是京剧的前身。清代乾隆五十五年（1790年）起，原在南方演出的三庆、四喜、春台、和春， 四大徽班陆续进入北京，他们与来自湖北的艺人合作，同时又接受了昆曲、秦腔的部分剧目、曲调和表演方法，吸收了一些地方民间曲调，通过不断的交流、融合，最终形成京剧。京剧形成后在清朝宫廷内开始快速发展，直至民国得到空前的繁荣。</p>
+    </div>
+</div>
+<div class="f">越剧和评剧</div>
+<div class="s">
+    <div class="s1">
+        <img src="./images/zgxj/yj.jpg" alt="">
+        <p>越剧  长于抒情bai，以唱为主，声音du优美动听，表演真切动人，唯美典雅，zhi极具江南灵秀之气；多以“才子佳dao人”题材为主，艺术流派纷呈，公认的就有十三大流派之多。</p>
+    </div>
+    <div class="s2">
+        <img src="./images/zgxj/pj.jpg" alt="">
+        <p>评剧bai，是流传于中国北方的一个戏曲剧种，是广du大人民所喜闻乐见zhi的剧种之一，位列中国dao五大戏曲剧种。曾有观点认为是中国第二大剧种。</p>
+    </div>
+</div>
+<div class="f1">豫剧和黄梅戏</div>
+<div class="s">
+    <div class="s1">
+        <img src="./images/zgxj/yuj.jpg" alt="">
+        <p>《中国豫剧》是为了认识、把握豫剧艺术发展的规律，使豫剧艺术更好地发扬光大，发展前进。豫剧艺术所走过的发展道路告诉我们，继承和革新是艺术发展的普遍规律，既不能保守也不能粗暴，必须正确处理好两者的辩证关系。</p>
+    </div>
+    <div class="s2">
+        <img src="./images/zgxj/hmx.jpg" alt="">
+        <p>《中国黄梅戏》分源流、概论、剧目谱例、传记、文选、图片等若干大部，全面阐述了黄梅戏的历史与现状，理论与作品，声腔与剧目，成果与人物等诸多话题；广泛涉及黄梅戏纵横两度的文史及戏剧知识，是黄梅戏剧种的一部归结性著作。</p>
+    </div>
+</div>
+<div class="g"> 戏曲</div>
+<div class="h">中国戏曲主要是由民间歌舞、说唱和滑稽戏三种不同艺术形式综合而成。</div>
+</body>
+<br></br>
+<br></br>
+<br></br>
+</html>

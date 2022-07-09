@@ -1,0 +1,155 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.header{
+    margin-top: 30px;
+    width: 1400px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin-left: 50px;
+    /* 剧中 */
+    background: white;
+}
+.header .nav1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.nav .frist{
+    color: blue;
+}
+.imgBox{
+    border-top: 0px solid white;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.imgBox img{
+    width: 95%;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+.r{
+    text-align: center;
+    margin-top: 240px;
+	line-height: 100px;
+    font-size: 30px;
+	
+}
+.r1{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.s{
+    margin: auto;
+    width: 1400px;
+    height: 10px;
+    background-color: white;
+}
+.s img{
+    width: 360px;
+    height: 230px;
+}
+.w{
+    float: left;
+    width: 270px;
+    height: 150px;
+}
+.s11{
+    text-align: center;
+    margin-top: 170px;
+}
+.s1{
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin-right: 106.6px;
+}
+.s2{
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin-right: 106.6px;
+}
+.s3{
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin-right: 106.6px;
+}   
+.s4{
+    width: 270px;
+    height: 200px;
+    float: left;
+}
+.q{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.e{
+    width: 1600px;
+    height: 500px;
+
+}
+.e1{
+    margin-right: 100px;
+    float: left;
+    width: 1000px;
+    height: 500px;
+}
+.e1 img{
+    width: 1000px;
+    height: 500px;
+}
+.e2{
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+.e21{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 20px;
+
+
+}
+.e22{
+    line-height: 50px;
+    text-indent: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 150px;
+    font-size: 15px;
+    opacity: 0.5;
+
+}
+.g{
+    width: 100%;
+    height: 50px;
+}
